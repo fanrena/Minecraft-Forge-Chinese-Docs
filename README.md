@@ -18,6 +18,22 @@
 - `Forge文档_1.20.1_中文版.pdf` — 中文版，含语法着色、自动换行
 - `ForgeDocs_1.20.1_EN.pdf` — 英文原版 PDF 导出
 
+### 重新编译 PDF
+
+依赖：pandoc + xelatex (TeX Live)
+
+```bash
+# 中文版
+pandoc [所有md文件按顺序] \
+  -o Forge文档_1.20.1_中文版.pdf \
+  --pdf-engine=xelatex --toc --toc-depth=2 \
+  --highlight-style=tango \
+  -V fontsize=10pt -V geometry:margin=2cm \
+  -H pdf-header.tex
+
+# 英文版 (用 pdf-header-en.tex)
+```
+
 ## 原文许可
 
 本文档基于 Minecraft Forge 官方文档翻译，原文采用 [MIT 许可证](https://github.com/MinecraftForge/Documentation/blob/master/LICENSE)。
