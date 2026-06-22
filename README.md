@@ -1,6 +1,6 @@
 # Minecraft Forge 1.20.1 中文文档
 
-> **纯 AI 生成** — 本文档、翻译、代码、README、AI 索引、PDF 导出全部由 AI 完成。
+> **纯 AI 生成** — 本文档、翻译、代码、README、AI 索引、PDF 导出全部由 AI 完成。可能会不定期修正，但不会频繁更新。
 
 这是 [Minecraft Forge](https://github.com/MinecraftForge/MinecraftForge) 官方技术文档的中文翻译版本，适用于 **Minecraft 1.20.1**。
 
