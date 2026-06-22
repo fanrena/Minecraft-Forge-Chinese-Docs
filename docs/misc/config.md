@@ -21,6 +21,7 @@ Forge 使用基于 TOML 的配置系统，由 NightConfig 库读取。
 在模组构造函数中：`ModLoadingContext.get().registerConfig(type, spec, fileName)`
 
 配置类型：
+
 | 类型 | 加载端 | 同步客户端 | 默认文件后缀 |
 |:---:|:---:|:---:|:---:|
 | CLIENT | 仅客户端 | 否 | `-client` |
